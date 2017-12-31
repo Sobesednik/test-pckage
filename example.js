@@ -1,0 +1,3 @@
+const testPckage = require('./')
+
+testPckage()

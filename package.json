@@ -1,0 +1,24 @@
+{
+  "name": "test-pckage",
+  "version": "0.1.0",
+  "description": "a test package yeah {{ year }}",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "zoroaster test/spec",
+    "test-watch": "zoroaster test/spec --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sobesednik/test-pckage.git"
+  },
+  "keywords": ["test-pckage"],
+  "author": "Anton <anton@sobes.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sobesednik/test-pckage/issues"
+  },
+  "homepage": "https://github.com/Sobesednik/test-pckage#readme",
+  "devDependencies": {
+    "zoroaster": "0.4.6"
+  }
+}
